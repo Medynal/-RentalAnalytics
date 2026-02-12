@@ -131,7 +131,7 @@ SELECT * FROM genre_revenue
 WHERE revenue >(SELECT AVG(revenue) FROM genre_revenue)
 ORDER BY revenue DESC;
 
--- Marketing targets: materialised view of platinum customers who haven't rented since august 1, 2005.
+-- Marketing targets: materialised view of platinum customers who haven't rented in the last two weeks.
 DROP MATERIALIZED VIEW marketing_targets
 CREATE MATERIALIZED VIEW marketing_targets AS(
 	SELECT 
@@ -164,4 +164,5 @@ SELECT CURRENT_DATE
 
  
  
+
 
