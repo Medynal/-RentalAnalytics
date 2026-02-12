@@ -57,6 +57,15 @@ SELECT MAX (rental_date)
 from obt
 
 --Customer segment and performance 
+/* Based on lifetime spend customers are segmented into: 
+Platinum(Top Tier): lifetime spend > 150 
+Gold: 100< = lifetime spend <= 150 
+Silver: 50 < = lifetime spend <= 99.9 
+Bronze: lifetime spend < 50 
+Using MAX(rental_date) + 2 days as current day, customers are segmented into 3 based on last rental date: 
+ Occational : last rental days < 15 
+ Regular: 15<= last rental days <30 
+ At Risk: >=30*/
 SELECT 
 	customer_id,
 	customer_name,
@@ -163,6 +172,7 @@ REFRESH MATERIALIZED VIEW marketing_targets
 
  
  
+
 
 
 
