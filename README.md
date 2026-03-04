@@ -3,7 +3,7 @@ DVD Rental Co — Customer Churn and Lifetime Value Analysis
 Project Overview
 DVD Rental Co. is facing declining rentals due to competition from streaming platforms.
 This project identifies low-hanging fruit by analyzing:
-•	Customers who are churning or at risk
+Customers who are churning or at risk
 •	Film categories that drive the highest Lifetime Value (LTV)
 •	Movies and categories that are not rented by customers in certain location
 •	High-value customers for targeted marketing campaigns
