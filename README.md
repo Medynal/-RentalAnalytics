@@ -1,4 +1,4 @@
-# DVD Rental Co — Customer Churn and Lifetime Value (LTV) Analysis
+# DVD Rental Co: Customer Churn and Lifetime Value (LTV) Analysis
 
 ## Project Overview
 
